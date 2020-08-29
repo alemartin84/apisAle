@@ -3,7 +3,16 @@ body {
 }
 
 a {
-  color: #00b7ff;
+  color: #48264e;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .foto-gato {
@@ -27,5 +36,5 @@ h1:hover {
 }
 
 .bg-facts {
-  background-color: burlywood;
+  background-color: rgb(228, 170, 182);
 }
