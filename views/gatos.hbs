@@ -9,23 +9,27 @@
 
 </header>
 
-<div class="container-fluid justify-content-center mt-2">
-    <div class="row justify-content-center">
-        <div class="col-auto text-center border rounded bg-facts m-2">
-            <h3>Feline Facts 🐱‍</h3>
-            <p class="mb-0">{{hechos}}</p>
+<main>
+    <div class="container-fluid justify-content-center mt-2">
+        <div class="row justify-content-center">
+            <div class="col-auto text-center border rounded bg-facts m-2">
+                <h3>Feline Facts 🐱‍</h3>
+                <p class="mb-0">{{hechos}}</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center foto-gato">
+            <div class="col-4 mb-1">
+                <a class="btn btn-outline-dark btn-block" href=" /gatos">
+                    <h3>Summon random kitten!</h3>
+                </a>
+            </div>
+            <div class="col-12 text-center">
+
+                <img class="img-fluid" src="{{ruta}}" alt="imagen de gatito">
+                <p><small>Created by Alejandro Martin using "cat-facts" API by alexwohlbruck and random.cat API</small>
+                </p>
+            </div>
         </div>
     </div>
-
-    <div class="row justify-content-center foto-gato">
-        <div class="col-4 mb-1">
-            <a class="btn btn-outline-dark btn-block" href=" /gatos">
-                <h3>Summon random kitten!</h3>
-            </a>
-        </div>
-        <div class="col-12 text-center">
-
-            <img class="img-fluid" src="{{ruta}}" alt="imagen de gatito">
-        </div>
-    </div>
-</div>
+</main>
