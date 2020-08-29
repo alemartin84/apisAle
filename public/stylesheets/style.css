@@ -25,3 +25,7 @@ h1:hover {
   transform: scale(1.5);
   transition-duration: 1s;
 }
+
+.bg-facts {
+  background-color: burlywood;
+}
