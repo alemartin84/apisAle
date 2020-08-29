@@ -1,25 +1,30 @@
 <div class="text-right">
-    <i class="fas fa-cat fa-3x"></i>
+    <!--   <i class="fas fa-cat fa-3x"></i> -->
 </div>
+
+
 <header class="header d-flex align-items-center justify-content-center">
 
     <h1>Kittengarden</h1>
 
 </header>
 
-<div class="container-fluid justify-content-center mt-5">
+<div class="container-fluid justify-content-center mt-2">
     <div class="row justify-content-center">
-        <div class="col-auto text-center border rounded bg-facts">
-            <h3>Feline Facts 🐱‍🏍</h3>
-            <p>{{hechos}}</p>
+        <div class="col-auto text-center border rounded bg-facts m-2">
+            <h3>Feline Facts 🐱‍</h3>
+            <p class="mb-0">{{hechos}}</p>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-12 text-center">
-            <a href="/gatos">
+    <div class="row justify-content-center">
+        <div class="col-4 mb-1">
+            <a class="btn btn-outline-dark btn-block" href=" /gatos">
                 <h3>Summon random kitten!</h3>
             </a>
+        </div>
+        <div class="col-12 text-center">
+
             <img class="foto-gato" src="{{ruta}}" alt="imagen de gatito">
         </div>
     </div>
