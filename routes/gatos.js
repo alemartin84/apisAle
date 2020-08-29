@@ -1,17 +1,16 @@
-var express = require('express');
+var express = require("express");
 var router = express.Router();
-const gatosModels = require('./../models/gatosModels');
+const gatosModels = require("./../models/gatosModels");
 
+router.get("/", async function (req, res, next) {
+  let respuesta = await gatosModels.getHecho();
+  let fotoGatito = await gatosModels.getCatPic();
 
-
-router.get('/', async function(req, res, next) {
-
-   
-    let respuesta = await gatosModels.getHecho();
-    let fotoGatito = await gatosModels.getCatPic();
-    
-    res.render('gatos', { hechos : respuesta, ruta : fotoGatito });  
-   
+  res.render("gatos", {
+    hechos: respuesta,
+    ruta: fotoGatito,
+    title: "Gatitos 🐱‍👤",
+  });
 });
 
 module.exports = router;
