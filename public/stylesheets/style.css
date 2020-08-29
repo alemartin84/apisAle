@@ -1,8 +1,27 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 5px;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.foto-gato {
+  max-height: 60vh;
+}
+
+.header {
+  height: 20vh;
+  background-image: url(/images/fondogatos.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Indie Flower", cursive;
+  font-size: 10vh;
+}
+
+h1:hover {
+  transform: scale(1.5);
+  transition-duration: 1s;
 }
