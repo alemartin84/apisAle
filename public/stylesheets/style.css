@@ -18,7 +18,8 @@ a:hover {
 */
 
 .foto-gato {
-  max-height: 40vh;
+  max-width: 100%;
+  height: 100%;
 }
 
 .header {
